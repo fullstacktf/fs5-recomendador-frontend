@@ -32,3 +32,11 @@ In the following table there is the description and type of each movie attribute
 |`genres`|`JSON` list|List of the genres where the movie is classified. Each item contains an `id` (`Integer`) and a `name` (`String`) for each genre|
 |`production_companies`|`JSON` list| Production companies involved in the movie. Each item contains an `id` (`Integer`) and a `name` (`String`) for each production company|
 |`production_countries`|`JSON` list| Countries where the movie has been produced. Each item contains an `iso_3166_1` (`Integer`) code for the country and a `name` (`String`) for the countrie's name|
+
+## Mockups
+The mockups of our platform are stored under the `mockups` folder of this repo. There are variants for the [mobile](./mockups/mockupPhone) & [desktop](./mockups/mockupDesktop) versions
+
+## Database schema
+This is the first version of our relational database schema.
+
+![Database schema](./db-info/schema/db-schema.png)
