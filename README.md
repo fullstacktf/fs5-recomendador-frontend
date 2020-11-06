@@ -39,4 +39,4 @@ The mockups of our platform are stored under the `mockups` folder of this repo. 
 ## Database schema
 This is the first version of our relational database schema.
 
-![Database schema](./db-info/scjema/db-schema.png)
+![Database schema](./db-info/schema/db-schema.png)
