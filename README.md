@@ -7,4 +7,4 @@ uRecommend.me - frontend
 - Alejandro Suárez ([@Aletf7](https://github.com/Aletf7))
 
 ## Mockups
-The mockups of our platform are stored under the `mockups` folder of this repo. There are variants for the [mobile](./mockups/mockupPhone) & [desktop](./mockups/mockupDesktop) versions.
+The mockups of our platform are stored under the `mockups` folder of this repo. There are variants for the [mobile](./mockups/mockupPhone) & [desktop](./mockups/mockupDesktop) versions
