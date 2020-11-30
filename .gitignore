@@ -1,0 +1,20 @@
+# OS generated files #
+.DS_Store
+Thumbs.db
+
+# IDE files #
+.idea
+.vscode
+*.iml
+
+# Ignore node_modules folder #
+node_modules/
+
+# Ignore files #
+/build
+/dist
+tailwind.config.js
+
+# Application data and logs #
+*.log
+log/

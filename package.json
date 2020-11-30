@@ -1,0 +1,34 @@
+{
+  "name": "fs5-recomendador-frontend",
+  "version": "1.0.0",
+  "description": "uRecommend.me - frontend",
+  "main": "postcss.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstacktf/fs5-recomendador-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fullstacktf/fs5-recomendador-frontend/issues"
+  },
+  "homepage": "https://github.com/fullstacktf/fs5-recomendador-frontend#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "lodash-es": "^4.17.15",
+    "postcss": "^7.0.35",
+    "stylelint-config-standard": "^20.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
+  },
+  "devDependencies": {
+    "sass": "^1.23.7",
+    "parcel-bundler": "^1.12.4",
+    "postcss-cli": "^8.3.0",
+    "postcss-nesting": "^7.0.1",
+    "stylelint": "^13.8.0"
+  }
+}
