@@ -1,34 +1,99 @@
 {
   "name": "fs5-recomendador-frontend",
   "version": "1.0.0",
+  "private": true,
   "description": "uRecommend.me - frontend",
-  "main": "postcss.config.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/fullstacktf/fs5-recomendador-frontend.git"
-  },
-  "keywords": [],
   "author": "",
-  "license": "ISC",
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test": "vue-cli-service test:unit --watch",
+    "test:unit": "vue-cli-service test:unit",
+    "lint": "vue-cli-service lint"
+  },
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^9.8.6",
+    "core-js": "^3.6.5",
+    "lodash-es": "^4.17.15",
+    "postcss": "^7.0.35",
+    "stylelint-config-standard": "^20.0.0",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1",
+    "vue": "^2.6.12"
+  },
+  "devDependencies": {
+    "@testing-library/dom": "^7.28.1",
+    "@testing-library/jest-dom": "^5.11.6",
+    "@testing-library/vue": "^5.6.1",
+    "@types/jest": "^24.0.19",
+    "@typescript-eslint/eslint-plugin": "^2.33.0",
+    "@typescript-eslint/parser": "^2.33.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-typescript": "~4.5.0",
+    "@vue/cli-plugin-unit-jest": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "babel-eslint": "^10.1.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^5.0.2",
+    "@vue/test-utils": "^1.0.3",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^1.19.1",
+    "typescript": "~3.9.3",
+    "parcel-bundler": "^1.12.4",
+    "postcss-cli": "^8.3.0",
+    "postcss-nesting": "^7.0.1",
+    "sass": "^1.23.7",
+    "stylelint": "^13.8.0",
+    "vue-template-compiler": "^2.6.11"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {},
+    "overrides": [
+      {
+        "files": [
+          "**/__tests__/*.{j,t}s?(x)",
+          "**/tests/unit/**/*.spec.{j,t}s?(x)"
+        ],
+        "env": {
+          "jest": true
+        }
+      }
+    ]
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ],
+  "_id": "fs5-recomendador-frontend@1.0.0",
   "bugs": {
     "url": "https://github.com/fullstacktf/fs5-recomendador-frontend/issues"
   },
   "homepage": "https://github.com/fullstacktf/fs5-recomendador-frontend#readme",
-  "dependencies": {
-    "autoprefixer": "^9.8.6",
-    "lodash-es": "^4.17.15",
-    "postcss": "^7.0.35",
-    "stylelint-config-standard": "^20.0.0",
-    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.1"
+  "keywords": [],
+  "license": "ISC",
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fullstacktf/fs5-recomendador-frontend.git"
   },
-  "devDependencies": {
-    "sass": "^1.23.7",
-    "parcel-bundler": "^1.12.4",
-    "postcss-cli": "^8.3.0",
-    "postcss-nesting": "^7.0.1",
-    "stylelint": "^13.8.0"
+  "jest": {
+    "setupFilesAfterEnv": ["<rootDir>/testSetupFile.js"]
   }
+  
 }
+
